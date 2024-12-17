@@ -1,0 +1,30 @@
+name: sync_time_ntp_totalxsoftware
+description: "A Flutter utility library for validating device time synchronization with an NTP server. It helps detect whether the device's date and time are accurate, fetches NTP network time, and offers settings navigation for correcting date/time issues."
+version: 0.0.2
+homepage: "https://github.com/totalxsoftwaredevelopers/sync_time_ntp_totalxsoftware"
+
+environment:
+  sdk: ^3.5.3
+  flutter: ">=3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  ntp: ^2.0.0
+  open_settings_plus: ^0.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  generate: true
+
+screenshots:
+  - description: "https://www.totalx.in"
+    path: assets/images/totalx.png
